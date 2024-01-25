@@ -1,4 +1,3 @@
-git 
 <h1 align="center">
   <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="/img/icon.jpg" alt="Markdownify" width="200"></a>
