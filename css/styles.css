@@ -23,12 +23,7 @@ footer{
     width: 100vw;
 }
 
-.sectionsIconsLinks{
-    padding: 1em;
-    color: black;
-    text-decoration: none;
-}
-
+/* All the Bootstrap icons */
 .bi{
     font-size: 2em;
 }
@@ -39,29 +34,6 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-}
-
-#headerIcon{
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#corporativeIcon{
-    height: 5em;
-    width: 5em;
-}
-
-#headerGap{
-    height: 20vh;
-}
-
-#headerSections{
-    height: 20vh;
-    display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
@@ -80,6 +52,41 @@ footer{
     align-items: center;
 }
 
+/* Corporative icon on the header box */
+#headerIcon{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Corporative icon on the header file */
+#corporativeIcon{
+    height: 5em;
+    width: 5em;
+}
+
+/* Gap inserted in the middle of the header */
+#headerGap{
+    height: 20vh;
+}
+
+/* Different website sections menu box */
+#headerSections{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Links of the header sections related to the different website sections */
+.sectionsIconsLinks{
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+/* Company text relation box */
 #footerEnterprise{
     height: 20vh;
     padding: 0;
@@ -90,6 +97,7 @@ footer{
     color:white;
 }
 
+/* Different website social media menu box */
 #footerSocialMedia{
     padding: 2em;
     height: 20vh;
@@ -98,6 +106,7 @@ footer{
     align-items: center;
 }
 
+/* Links of the footer sections related to the different website social media */
 .socialMediaLinks{
     padding: 1em;
     color: white;
