@@ -12,12 +12,19 @@ header{
     background-color: #dd9955;
 }
 
+footer{
+    padding: 0;
+    margin: 0;
+    background-color: #553311;
+}
+
 .height{
     height: 20vh;
     width: 100vw;
 }
 
 .sectionsIconsLinks{
+    padding: 1em;
     color: black;
     text-decoration: none;
 }
@@ -56,5 +63,44 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
 }
+
+#contentSection{
+    height: 60vh;
+    width: 100vw;
+    background-color: #edd8a1;
+}
+
+#footerSection{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerEnterprise{
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+#footerSocialMedia{
+    padding: 2em;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.socialMediaLinks{
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+

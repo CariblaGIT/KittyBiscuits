@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="/img/icon.jpg" alt="Markdownify" width="200"></a>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="/img/icon.png" alt="Markdownify" width="200"></a>
   <br>
   KittyBiscuits
   <br>
