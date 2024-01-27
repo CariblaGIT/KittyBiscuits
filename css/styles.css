@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    padding: 0;
+    margin: 0;
+    background-color: #dd9955;
+}
+
+.height{
+    height: 20vh;
+    width: 100vw;
+}
+
+.sectionsIconsLinks{
+    color: black;
+    text-decoration: none;
+}
+
+.bi{
+    font-size: 2em;
+}
+
+#headerSection{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerIcon{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#corporativeIcon{
+    height: 5em;
+    width: 5em;
+}
+
+#headerGap{
+    height: 20vh;
+}
+
+#headerSections{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
