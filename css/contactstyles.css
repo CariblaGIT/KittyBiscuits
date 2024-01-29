@@ -1,0 +1,74 @@
+#contactSection{
+    width: 100vw;
+    height: 60vh;
+    background-color: #edd8a1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#leftContent, #rightContent{
+    width: 50vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+#photoContactForm{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    opacity: 0.8;
+}
+
+#leftContent{
+    margin-left: 5em;
+}
+
+#rightContent{
+    align-items: center;
+    justify-content: center;
+}
+
+#rightContent > h3{
+    margin-bottom: 0.5em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#sendButton{
+    background-color: #553311;
+    width: 10em;
+    height: 4em;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    padding: 1em 0.75em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+#sendButton > i{
+    margin-right: 0.5em;
+}
+
+#sendButton:hover{
+    background-color: #aa7733;
+    transition: 0.3s;
+}
