@@ -81,26 +81,33 @@ footer{
 
 /* Links of the header sections related to the different website sections */
 .sectionsIconsLinks{
-    height: 4em;
-    width: 4em;
-    margin: 0.5em;
+    height: fit-content;
+    width: fit-content;
+    margin: 0.3em;
+    padding: 0.5em;
     color: black;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 10%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     transition: 1s;
 }
 
+.iconHeader{
+    padding: 0.3em;
+}
+
 /* Links of the header sections hover interaction */
 .sectionsIconsLinks:hover{
     background-color: #553311;
+    color: #aa7733;
     background-size: 1.5em;
     transition: 1s;
 }
 
-/* Icons of the header sections hover interaction of the parent*/
+/* Icons of the header sections hover interaction of the parent */
 .sectionsIconsLinks:hover > i{
     transition: 1s;
     color: #aa7733;
@@ -133,3 +140,121 @@ footer{
     text-decoration: none;
 }
 
+/* Icons of the footer sections related to the parent */
+.socialMediaLinks > i{
+    transition: 1s;
+}
+
+/* Icons of the footer sections hover interaction of the parent */
+.socialMediaLinks:hover > i{
+    transition: 1s;
+    color: #aa7733;
+}
+
+/* Burger header icon and bars interactions that are making it */
+#burgerIcon {
+	cursor: pointer;
+	height: 27px;
+	width: 27px;
+	margin: 50px;
+	overflow: visible;
+	position: relative;
+	z-index: 2;
+
+	span,
+	span:before,
+	span:after {
+		background: black;
+		display: block;
+		height: 2px;
+		opacity: 1;
+		position: absolute;
+		transition: 0.3s ease-in-out;
+	}
+
+	span:before,
+	span:after {
+		content: '';
+	}
+
+	span:before {
+		left: 0px;
+		top: -10px;
+		width: 27px;
+	}
+
+	span {
+		right: 0px;
+		top: 13px;
+		width: 27px;
+	}
+
+	span:after {
+		left: 0px;
+		top: 10px;
+		width: 27px;
+	}
+
+	&.close {
+		span:before {
+			top: 0px;
+			transform: rotate(90deg);
+			width: 27px;
+            background: white;
+		}
+
+		span {
+			transform: rotate(-45deg);
+			top: 13px;
+			width: 27px;
+            background: white;
+		}
+
+		span:after {
+			top: 0px;
+			left: 0;
+			transform: rotate(90deg);
+			opacity: 0;
+			width: 0;
+            background: white;
+		}
+	}
+}
+
+/* Burger header content when is interacted with the burger icon */
+#burgerMenu {
+	z-index: 1;
+	min-width: 100%;
+	min-height: 100%;
+	position: fixed;
+	top: 0;
+	height: 0;
+	visibility: hidden;
+	opacity: 0;
+	text-align: center;
+	padding-top: 20px;
+	transition: all 0.3s ease-in-out;
+
+	&.overlay {
+		visibility: visible;
+		opacity: 1;
+		padding-top: 100px;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	ul {
+		padding: 0;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	a {
+		color: #fff;
+		display: block;
+		font-size: 32px;
+		margin-bottom: 30px;
+		text-decoration: none;
+	}
+}
