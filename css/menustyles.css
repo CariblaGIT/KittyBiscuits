@@ -1,0 +1,59 @@
+body{
+    overflow-y: visible; /* Show vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+#menuSection{
+    width: 100vw;
+    background-color: #edd8a1;
+}
+
+.columnStyle {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: 20em;
+    width: 20em;
+
+    background-color: white;
+    border-radius: 0.5em;
+    transition: 0.4s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1em;
+}
+
+.coffee {
+    height: 8em;
+    width: 8em;
+}
+
+.downCard{
+    height: 12em;
+    width: fit-content;
+    background-color: #bb8855;
+    border-radius: 0 0 0.5em 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.downTitleCoffee{
+    height: 2em;
+    width: fit-content;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+.downDescriptionCoffee{
+    height: fit-content;
+    margin-left: 0.5em;
+    width: fit-content;
+}
