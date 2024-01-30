@@ -1,18 +1,22 @@
-body{
-    overflow-y: visible; /* Show vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-
 #menuSection{
     width: 100vw;
     background-color: #edd8a1;
 }
 
+/* Management of the row class and the disposition of the columns of the menu chart */
 .columnStyle {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
+.row{
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card class for each element of the menu */
 .card {
     height: 20em;
     width: 20em;
@@ -29,11 +33,13 @@ body{
     margin: 1em;
 }
 
+/* Coffee img for each card on the menu */
 .coffee {
     height: 8em;
     width: 8em;
 }
 
+/* Content part of the card */
 .downCard{
     height: 12em;
     width: fit-content;
@@ -44,14 +50,16 @@ body{
     align-items: flex-start;
 }
 
+/* Name of the coffee that appears on each card */
 .downTitleCoffee{
-    height: 2em;
+    height: fit-content;
     width: fit-content;
     font-weight: bold;
     margin-top: 0.5em;
     margin-left: 0.5em;
 }
 
+/* Description of the coffee that appears on each card */
 .downDescriptionCoffee{
     height: fit-content;
     margin-left: 0.5em;
