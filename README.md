@@ -10,12 +10,13 @@
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
+  <a href="#project-objective">Project objective</a> •
+  <a href="#demo">Demo</a> •
+  <a href="#stack">Stack</a> •
   <a href="#landing-page-for-commerce">Landing page for commerce</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#views">Views</a> •
+  <a href="#support">Support</a> •
+  <a href="#you-may-also-like">You may also like...</a>
 </p>
 
 ## Key Features
@@ -25,43 +26,33 @@
 * GitHub controlled develop
 * Stylish result using Boostrap technologies
 
-## How To Use
+## Project objective
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+This website is a project to show the first abilities I'm learning with the frontend technologies like CSS, Bootstrap or HTML. Is a first contact with the Full-Stack developing tasks and goals that I have as a programer.
 
-```bash
-# Clone this repository
-$ git clone https://github.com/CariblaGIT/KittyBiscuits.git
+## Demo
 
-# Go into the repository
-$ cd KittyBiscuits
+You can try the [demo](https://cariblagit.github.io/KittyBiscuits/) the latest version of KittyBiscuits for your explorer.
 
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
-
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-
-## Download
-
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of KittyBiscuits for Windows, macOS and Linux.
+## Stack
+<div align="center">
+<a href="https://lenguajehtml.com/html/">
+    <img src= "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">
+    <img src= "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+</a>
+<a href="https://getbootstrap.com/">
+    <img src= "https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+</a>
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src= "https://img.shields.io/badge/javascipt-EFD81D?style=for-the-badge&logo=javascript&logoColor=black"/>
+</a>
+ </div>
 
 ## Landing page for commerce
 
-KittyBiscuits is an example of a landing page for a commerce based on the restauration and food. Meaning, if you liked this app or it has helped you in any way, I'd like you send me an email at <caribladev@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
-
-## Credits
-
-This software uses the following open source packages:
-
-- [Javascript ⌨️](https://developer.mozilla.org/es/docs/Web/JavaScript)
-- [CSS3 ✒️](https://developer.mozilla.org/es/docs/Web/CSS)
-- [HTML5 🖥️](https://lenguajehtml.com/html/)
+KittyBiscuits is an example of a basic website for a commerce based on the restauration and food. Meaning, if you liked this app or it has helped you in any way, I'd like you send me an email at <caribla4@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
 
 ## Support
 
@@ -78,12 +69,7 @@ This software uses the following open source packages:
 - [Between Sins](https://gitlab.com/daghdha1/betweensins) - RPG videogame 
 - [Mars Alienated](https://gitlab.com/AdrianGarciaAndreu/mars-alienated-rv-htc) - VR escape room experience in a space station
 
-## License
-
-MIT
-
----
-
-> [kittybiscuits.com](https://www.kittybiscuits.com) &nbsp;&middot;&nbsp;
-> GitHub [@cariblagit](https://github.com/cariblagit)
-
+<div align="center">
+<a href="https://www.linkedin.com/in/carlos-ibañez-lamas-74487b228/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://gitlab.com/CariblaGTI" target="_blank"><img src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" target="_blank"></a>
+</div>
