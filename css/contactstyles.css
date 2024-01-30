@@ -10,23 +10,22 @@
 /* Division of the content in 2 columns: left and right */
 #leftContent, #rightContent{
     width: 50vw;
-    height: 55vh;
     display: flex;
     flex-direction: column;
-    margin: 1em;
 }
 
 /* Left column image properties */
 #photoContactForm{
     height: auto;
-    width: 100%;
+    width: 40vw;
     border-radius: 5%;
     opacity: 0.8;
 }
 
 /* Left column */
 #leftContent{
-    margin-left: 10em;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Right column */
