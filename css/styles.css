@@ -232,6 +232,7 @@ footer{
 	min-height: 100%;
 	position: fixed;
 	top: 0;
+	left: 0;
 	height: 0;
 	visibility: hidden;
 	opacity: 0;
