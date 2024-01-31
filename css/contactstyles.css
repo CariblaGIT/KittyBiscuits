@@ -16,10 +16,9 @@
 
 /* Left column image properties */
 #photoContactForm{
-    height: auto;
-    width: 40vw;
     border-radius: 5%;
     opacity: 0.8;
+    margin-left: 4em;
 }
 
 /* Left column */
