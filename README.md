@@ -13,7 +13,7 @@
   <a href="#project-objective">Project objective</a> •
   <a href="#demo">Demo</a> •
   <a href="#stack">Stack</a> •
-  <a href="#landing-page-for-commerce">Landing page for commerce</a> •
+  <a href="#future-improvements">Future improvements</a> •
   <a href="#views">Views</a> •
   <a href="#support">Support</a> •
   <a href="#you-may-also-like">You may also like...</a>
@@ -50,19 +50,32 @@ You can try the [demo](https://cariblagit.github.io/KittyBiscuits/) the latest v
 </a>
  </div>
 
-## Landing page for commerce
+## Future improvements
 
-KittyBiscuits is an example of a basic website for a commerce based on the restauration and food. Meaning, if you liked this app or it has helped you in any way, I'd like you send me an email at <caribla4@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+⬜ Block vertical movement when the nav menu is open in mobile format
+⬜ Adding more data to the user on the landing page about the coffee shop
+⬜ Making the form totally functional with Javascript
+⬜ Adding more products to the website on the menu
+
+## Views
+
+Landing page - mobile format
+
+<img src="./img/views/index.png">
+
+Menu
+
+<img src="./img/views/menu.png">
+
+Contact
+
+<img src="./img/views/contact.png">
 
 ## Support
 
-<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-<p>Or</p> 
-
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
+<div align="center">
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+</div>
 
 ## You may also like...
 
