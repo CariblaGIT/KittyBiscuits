@@ -53,8 +53,11 @@ You can try the [demo](https://cariblagit.github.io/KittyBiscuits/) the latest v
 ## Future improvements
 
 ⬜ Block vertical movement when the nav menu is open in mobile format
+<br>
 ⬜ Adding more data to the user on the landing page about the coffee shop
+<br>
 ⬜ Making the form totally functional with Javascript
+<br>
 ⬜ Adding more products to the website on the menu
 
 ## Views
